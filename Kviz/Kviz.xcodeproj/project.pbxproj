@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C100E91422579C0100E1EDF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E91322579C0100E1EDF5 /* AppDelegate.swift */; };
+		C100E91B22579C0500E1EDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C100E91A22579C0500E1EDF5 /* Assets.xcassets */; };
+		C100E91E22579C0500E1EDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C100E91C22579C0500E1EDF5 /* LaunchScreen.storyboard */; };
+		C100E92922579C0500E1EDF5 /* KvizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E92822579C0500E1EDF5 /* KvizTests.swift */; };
+		C100E93422579C0500E1EDF5 /* KvizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E93322579C0500E1EDF5 /* KvizUITests.swift */; };
+		C100E94322579C9900E1EDF5 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E94122579C9900E1EDF5 /* MainWindow.swift */; };
+		C100E94422579C9900E1EDF5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C100E94222579C9900E1EDF5 /* MainWindow.xib */; };
+		C100E9502257A59400E1EDF5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E94F2257A59400E1EDF5 /* Service.swift */; };
+		C100E9522257A78400E1EDF5 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E9512257A78400E1EDF5 /* Quiz.swift */; };
+		C100E9542257AA6E00E1EDF5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E9532257AA6E00E1EDF5 /* Question.swift */; };
+		C100E9562257AADE00E1EDF5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100E9552257AADE00E1EDF5 /* Category.swift */; };
+		C18D230822592A8100672956 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D230722592A8100672956 /* QuestionView.swift */; };
+		C18D230A22592A8F00672956 /* QuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18D230922592A8F00672956 /* QuestionView.xib */; };
+		C18D2311225960D200672956 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D230F225960D200672956 /* LoginScreen.swift */; };
+		C18D2312225960D200672956 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18D2310225960D200672956 /* LoginScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C100E92522579C0500E1EDF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C100E90822579C0100E1EDF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C100E90F22579C0100E1EDF5;
+			remoteInfo = Kviz;
+		};
+		C100E93022579C0500E1EDF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C100E90822579C0100E1EDF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C100E90F22579C0100E1EDF5;
+			remoteInfo = Kviz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C100E91022579C0100E1EDF5 /* Kviz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kviz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C100E91322579C0100E1EDF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C100E91A22579C0500E1EDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C100E91D22579C0500E1EDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C100E91F22579C0500E1EDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C100E92422579C0500E1EDF5 /* KvizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KvizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C100E92822579C0500E1EDF5 /* KvizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KvizTests.swift; sourceTree = "<group>"; };
+		C100E92A22579C0500E1EDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C100E92F22579C0500E1EDF5 /* KvizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KvizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C100E93322579C0500E1EDF5 /* KvizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KvizUITests.swift; sourceTree = "<group>"; };
+		C100E93522579C0500E1EDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C100E94122579C9900E1EDF5 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		C100E94222579C9900E1EDF5 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C100E94F2257A59400E1EDF5 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C100E9512257A78400E1EDF5 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		C100E9532257AA6E00E1EDF5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C100E9552257AADE00E1EDF5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C18D230722592A8100672956 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		C18D230922592A8F00672956 /* QuestionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionView.xib; sourceTree = "<group>"; };
+		C18D230F225960D200672956 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		C18D2310225960D200672956 /* LoginScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C100E90D22579C0100E1EDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100E92122579C0500E1EDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100E92C22579C0500E1EDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C100E90722579C0100E1EDF5 = {
+			isa = PBXGroup;
+			children = (
+				C100E91222579C0100E1EDF5 /* Kviz */,
+				C100E92722579C0500E1EDF5 /* KvizTests */,
+				C100E93222579C0500E1EDF5 /* KvizUITests */,
+				C100E91122579C0100E1EDF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C100E91122579C0100E1EDF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C100E91022579C0100E1EDF5 /* Kviz.app */,
+				C100E92422579C0500E1EDF5 /* KvizTests.xctest */,
+				C100E92F22579C0500E1EDF5 /* KvizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C100E91222579C0100E1EDF5 /* Kviz */ = {
+			isa = PBXGroup;
+			children = (
+				C18D230F225960D200672956 /* LoginScreen.swift */,
+				C18D2310225960D200672956 /* LoginScreen.xib */,
+				C18D230722592A8100672956 /* QuestionView.swift */,
+				C18D230922592A8F00672956 /* QuestionView.xib */,
+				C100E94122579C9900E1EDF5 /* MainWindow.swift */,
+				C100E94222579C9900E1EDF5 /* MainWindow.xib */,
+				C100E9512257A78400E1EDF5 /* Quiz.swift */,
+				C100E9552257AADE00E1EDF5 /* Category.swift */,
+				C100E9532257AA6E00E1EDF5 /* Question.swift */,
+				C100E94F2257A59400E1EDF5 /* Service.swift */,
+				C100E91322579C0100E1EDF5 /* AppDelegate.swift */,
+				C100E91A22579C0500E1EDF5 /* Assets.xcassets */,
+				C100E91C22579C0500E1EDF5 /* LaunchScreen.storyboard */,
+				C100E91F22579C0500E1EDF5 /* Info.plist */,
+			);
+			path = Kviz;
+			sourceTree = "<group>";
+		};
+		C100E92722579C0500E1EDF5 /* KvizTests */ = {
+			isa = PBXGroup;
+			children = (
+				C100E92822579C0500E1EDF5 /* KvizTests.swift */,
+				C100E92A22579C0500E1EDF5 /* Info.plist */,
+			);
+			path = KvizTests;
+			sourceTree = "<group>";
+		};
+		C100E93222579C0500E1EDF5 /* KvizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C100E93322579C0500E1EDF5 /* KvizUITests.swift */,
+				C100E93522579C0500E1EDF5 /* Info.plist */,
+			);
+			path = KvizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C100E90F22579C0100E1EDF5 /* Kviz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C100E93822579C0500E1EDF5 /* Build configuration list for PBXNativeTarget "Kviz" */;
+			buildPhases = (
+				C100E90C22579C0100E1EDF5 /* Sources */,
+				C100E90D22579C0100E1EDF5 /* Frameworks */,
+				C100E90E22579C0100E1EDF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kviz;
+			productName = Kviz;
+			productReference = C100E91022579C0100E1EDF5 /* Kviz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C100E92322579C0500E1EDF5 /* KvizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C100E93B22579C0500E1EDF5 /* Build configuration list for PBXNativeTarget "KvizTests" */;
+			buildPhases = (
+				C100E92022579C0500E1EDF5 /* Sources */,
+				C100E92122579C0500E1EDF5 /* Frameworks */,
+				C100E92222579C0500E1EDF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C100E92622579C0500E1EDF5 /* PBXTargetDependency */,
+			);
+			name = KvizTests;
+			productName = KvizTests;
+			productReference = C100E92422579C0500E1EDF5 /* KvizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C100E92E22579C0500E1EDF5 /* KvizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C100E93E22579C0500E1EDF5 /* Build configuration list for PBXNativeTarget "KvizUITests" */;
+			buildPhases = (
+				C100E92B22579C0500E1EDF5 /* Sources */,
+				C100E92C22579C0500E1EDF5 /* Frameworks */,
+				C100E92D22579C0500E1EDF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C100E93122579C0500E1EDF5 /* PBXTargetDependency */,
+			);
+			name = KvizUITests;
+			productName = KvizUITests;
+			productReference = C100E92F22579C0500E1EDF5 /* KvizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C100E90822579C0100E1EDF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rino Cala";
+				TargetAttributes = {
+					C100E90F22579C0100E1EDF5 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					C100E92322579C0500E1EDF5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C100E90F22579C0100E1EDF5;
+					};
+					C100E92E22579C0500E1EDF5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C100E90F22579C0100E1EDF5;
+					};
+				};
+			};
+			buildConfigurationList = C100E90B22579C0100E1EDF5 /* Build configuration list for PBXProject "Kviz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C100E90722579C0100E1EDF5;
+			productRefGroup = C100E91122579C0100E1EDF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C100E90F22579C0100E1EDF5 /* Kviz */,
+				C100E92322579C0500E1EDF5 /* KvizTests */,
+				C100E92E22579C0500E1EDF5 /* KvizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C100E90E22579C0100E1EDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18D230A22592A8F00672956 /* QuestionView.xib in Resources */,
+				C100E91E22579C0500E1EDF5 /* LaunchScreen.storyboard in Resources */,
+				C18D2312225960D200672956 /* LoginScreen.xib in Resources */,
+				C100E91B22579C0500E1EDF5 /* Assets.xcassets in Resources */,
+				C100E94422579C9900E1EDF5 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100E92222579C0500E1EDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100E92D22579C0500E1EDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C100E90C22579C0100E1EDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18D230822592A8100672956 /* QuestionView.swift in Sources */,
+				C100E9522257A78400E1EDF5 /* Quiz.swift in Sources */,
+				C100E9542257AA6E00E1EDF5 /* Question.swift in Sources */,
+				C100E9562257AADE00E1EDF5 /* Category.swift in Sources */,
+				C100E94322579C9900E1EDF5 /* MainWindow.swift in Sources */,
+				C18D2311225960D200672956 /* LoginScreen.swift in Sources */,
+				C100E9502257A59400E1EDF5 /* Service.swift in Sources */,
+				C100E91422579C0100E1EDF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100E92022579C0500E1EDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100E92922579C0500E1EDF5 /* KvizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100E92B22579C0500E1EDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100E93422579C0500E1EDF5 /* KvizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C100E92622579C0500E1EDF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C100E90F22579C0100E1EDF5 /* Kviz */;
+			targetProxy = C100E92522579C0500E1EDF5 /* PBXContainerItemProxy */;
+		};
+		C100E93122579C0500E1EDF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C100E90F22579C0100E1EDF5 /* Kviz */;
+			targetProxy = C100E93022579C0500E1EDF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C100E91C22579C0500E1EDF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C100E91D22579C0500E1EDF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C100E93622579C0500E1EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C100E93722579C0500E1EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C100E93922579C0500E1EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kviz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rinocala.Kviz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C100E93A22579C0500E1EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kviz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rinocala.Kviz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C100E93C22579C0500E1EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KvizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rinocala.KvizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kviz.app/Kviz";
+			};
+			name = Debug;
+		};
+		C100E93D22579C0500E1EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KvizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rinocala.KvizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kviz.app/Kviz";
+			};
+			name = Release;
+		};
+		C100E93F22579C0500E1EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KvizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rinocala.KvizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kviz;
+			};
+			name = Debug;
+		};
+		C100E94022579C0500E1EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KvizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rinocala.KvizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kviz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C100E90B22579C0100E1EDF5 /* Build configuration list for PBXProject "Kviz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100E93622579C0500E1EDF5 /* Debug */,
+				C100E93722579C0500E1EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C100E93822579C0500E1EDF5 /* Build configuration list for PBXNativeTarget "Kviz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100E93922579C0500E1EDF5 /* Debug */,
+				C100E93A22579C0500E1EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C100E93B22579C0500E1EDF5 /* Build configuration list for PBXNativeTarget "KvizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100E93C22579C0500E1EDF5 /* Debug */,
+				C100E93D22579C0500E1EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C100E93E22579C0500E1EDF5 /* Build configuration list for PBXNativeTarget "KvizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100E93F22579C0500E1EDF5 /* Debug */,
+				C100E94022579C0500E1EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C100E90822579C0100E1EDF5 /* Project object */;
+}
