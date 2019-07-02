@@ -1,2 +1,2 @@
 # IOSDomaciRinoFive
-Repozitorij za domace radove iz IOS-a
+Repozitorij za domace radove iz vjestine IOS
