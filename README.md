@@ -1,3 +1,1 @@
-# IOSDomaciRinoFive
-Repozitorij za domace radove iz vjestine IOS
-FER
+# Five Faculty Skill 2019 - iOS
